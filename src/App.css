@@ -1,0 +1,91 @@
+.main_div{
+    width: 100%;
+    height: 100vh;
+    background: #6983aa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.center_div{
+    width: 25%;
+    height: 80vh;
+    background-color: #f4f4f4;
+    box-shadow:5px 5px 25px -5px rgba(0,0,0,0.5) ;
+    border-radius: 15px;
+}
+.h1hu{
+    color: white;
+    font-size: 28px;
+    background:transparent;
+    background-color: #8566aa;
+    padding: 6px 0 2px 0;
+    /* margin-bottom:5px; */
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+    font-weight: 600;
+}
+.inputhu{
+    text-align: center;
+    height: 30px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 25px;
+    font-weight: 500;
+    width: 60%;
+    outline: none;
+    border-bottom:3px solid #8566aa;
+    }
+    .Plus_button{
+    /* height: 50px;
+    width: 50px;
+    align-items: center;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #5407b3;
+    color: #f4f4f4;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    margin-left: 10px; */
+    height:50px;
+    text-align: center;
+    background-color: #b492df;
+    width: 15%;
+    font-size: 30px;
+    border: none;
+    margin-left: 12px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+.Plus_button:hover{
+    background-color: #5ed897;
+}
+.olhu{
+    margin-top: 30px;
+    color: #8566aa;
+    font-size: 25px;
+    
+}
+
+.todo_style{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; 
+    align-items: center */
+    margin-left: 50px;
+    margin-bottom: 12px;
+}
+.todo_style li{
+    margin-left: 5px;
+}
+.icons:hover{
+    color:rgb(201, 55, 62)
+}
+
+@media (max-width:680px) {
+    .center_div{
+        width:60%;
+    }
+}
